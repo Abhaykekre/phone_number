@@ -38,4 +38,13 @@ src/
          └── application.properties               # MongoDB config
 
 
+---
 
+## 🧠 API Endpoints
+| Method | Endpoint | Description |
+|--------|-----------|--------------|
+| **POST** | `/api/users` | Create a new user |
+| **GET** | `/api/users` | Get all users |
+| **GET** | `/api/users/{id}` | Get a user by ID |
+| **PUT** | `/api/users/{id}` | Update user details |
+| **DELETE** | `/api/users/{id}` | Delete a user |
